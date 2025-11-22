@@ -49,7 +49,7 @@ public final class ScxSocketServer {
         var clientID = getClientID(handshakeRequest);
         if (clientID == null) {
             //todo 如何拒绝连接
-            handshakeRequest.response().status(400).send();
+            handshakeRequest.response().statusCode(400).send();
 //            serverWebSocket.close(400);
             return;
         }

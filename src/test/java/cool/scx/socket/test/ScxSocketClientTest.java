@@ -1,6 +1,6 @@
 package cool.scx.socket.test;
 
-import cool.scx.reflect.TypeReference;
+import dev.scx.reflect.TypeReference;
 import cool.scx.socket.ScxSocketClient;
 import cool.scx.websocket.x.WebSocketClient;
 

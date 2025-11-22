@@ -1,6 +1,6 @@
 package cool.scx.socket;
 
-import cool.scx.reflect.TypeReference;
+import dev.scx.reflect.TypeReference;
 
 import static cool.scx.socket.Helper.fromJson;
 import static cool.scx.socket.Helper.toJson;
