@@ -2,7 +2,7 @@ package cool.scx.socket.test;
 
 import cool.scx.http.x.HttpServer;
 import cool.scx.http.x.HttpServerOptions;
-import cool.scx.reflect.TypeReference;
+import dev.scx.reflect.TypeReference;
 import cool.scx.socket.ScxSocketServer;
 import cool.scx.websocket.ScxServerWebSocketHandshakeRequest;
 import cool.scx.websocket.x.WebSocketUpgradeHandler;
@@ -42,7 +42,7 @@ public class ScxSocketServerTest extends InitLogger {
                 e.printStackTrace();
             });
 
-            //响应方法 
+            //响应方法
             clientContent.onEvent("aaa", (r) -> {
                 r.response(r.payload() + "🙄");
             });

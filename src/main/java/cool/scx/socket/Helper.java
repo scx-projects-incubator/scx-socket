@@ -3,7 +3,7 @@ package cool.scx.socket;
 import cool.scx.http.uri.ScxURI;
 import cool.scx.http.uri.ScxURIWritable;
 import cool.scx.object.ScxObject;
-import cool.scx.reflect.TypeReference;
+import dev.scx.reflect.TypeReference;
 import cool.scx.websocket.ScxServerWebSocketHandshakeRequest;
 
 

@@ -1,6 +1,6 @@
 package cool.scx.socket;
 
-import cool.scx.reflect.TypeReference;
+import dev.scx.reflect.TypeReference;
 import cool.scx.websocket.event.ScxEventWebSocket;
 
 import java.util.function.Consumer;

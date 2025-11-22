@@ -1,6 +1,6 @@
 package cool.scx.socket.test;
 
-import cool.scx.logging.ScxLogging;
+import dev.scx.logging.ScxLogging;
 
 public class InitLogger {
 
